@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Menu</title>
+    <style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+body{overflow: scroll;
+
+}
+
+header {
+    background-color: #630412;
+    color: #f5d99df1;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px greenyellow ;
+    font-family: cursive;
+    font-size: xx-large;
+
+}
+
+ ul {
+     list-style:square;
+    margin: 0;
+    padding: 0;
+}
+
+ ul li {
+    display: inline;
+    margin-right: 8%;
+}
+
+ul :hover{background-color: rgb(245, 252, 62);}
+a {
+    text-decoration: double gold ;
+    color: #c1eebb;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #630412;
+    color: azure;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.vertical-menu{
+    width: 250px; height: 0px;
+}
+
+.vertical-menu a {
+  background-color:#333;
+  color: rgb(255, 254, 254);
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ffea47;
+}
+
+.vertical-menu a.active {
+  background-color: #690404;
+  color: white;
+}
+h2{
+    font-family: cursive;
+    color: #ffffff; text-align: center;
+    
+
+}
+section {
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    .menu-item {
+      background-color: #a40707;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .menu-item:hover {
+      transform: scale(1.05);
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .menu-item-details {
+      padding: 15px;
+    }
+
+    .menu-item h2 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .menu-item p {
+      margin: 10px 0;
+      color: #ffffff;
+    }
+
+    .menu-item .price {
+      font-weight: bold;
+      color: #f7ff1e;
+      font-size: 18px;
+    }
+
+
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Karachi Fast Foods</h1>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               
+            </ul>
+    </header>
+    <div class="vertical-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html">Order</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div><br><br>
+      <section>
+        <div class="menu-item">
+          <img src="Burger-and-Fries.jpg" alt="Burger">
+          <div class="menu-item-details">
+            <h2>Cheeseburger</h2>
+            <p>A classic cheeseburger with lettuce, tomato, and pickles.</p>
+            <p class="price">RS 550</p>
+          </div>
+        </div>
+    
+        <div class="menu-item">
+          <img src="Pepperonipizza.jpg" alt="Pizza">
+          <div class="menu-item-details">
+            <h2>Pepperoni Pizza</h2>
+            <p>Freshly baked pizza with pepperoni and mozzarella cheese.</p>
+            <p class="price">RS 999</p>
+          </div>
+        </div>
+        <div class="menu-item">
+            <img src="Zinger-Burger.png" alt="zinger">
+            <div class="menu-item-details">
+              <h2>Zinger Burger With Extra Cheese</h2>
+              <p>ZInger Burger With extra cheese and fries</p>
+              <p class="price">RS 550</p>
+            </div>
+          </div>
+
+         <div class="menu-item">
+          <img src="Pepperonipizza.jpg" alt="Pizza">
+          <div class="menu-item-details">
+            <h2>Pepperoni Pizza</h2>
+            <p>Freshly baked pizza with pepperoni and mozzarella cheese.</p>
+            <p class="price">RS 999</p>
+          </div>
+        </div>
+        <div class="menu-item">
+            <img src="Zinger-Burger.png" alt="zinger">
+            <div class="menu-item-details">
+              <h2>Zinger Burger With Extra Cheese</h2>
+              <p>ZInger Burger With extra cheese and fries</p>
+              <p class="price">RS 550</p>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <img src="Pepperonipizza.jpg" alt="Pizza">
+            <div class="menu-item-details">
+              <h2>Pepperoni Pizza</h2>
+              <p>Freshly baked pizza with pepperoni and mozzarella cheese.</p>
+              <p class="price">RS 999</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="Burger-and-Fries.jpg" alt="Burger">
+            <div class="menu-item-details">
+              <h2>Cheeseburger</h2>
+              <p>A classic cheeseburger with lettuce, tomato, and pickles.</p>
+              <p class="price">RS 550</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="Pepperonipizza.jpg" alt="Pizza">
+            <div class="menu-item-details">
+              <h2>Pepperoni Pizza</h2>
+              <p>Freshly baked pizza with pepperoni and mozzarella cheese.</p>
+              <p class="price">RS 999</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="Burger-and-Fries.jpg" alt="Pizza">
+            <div class="menu-item-details">
+              <h2>Pepperoni Pizza</h2>
+              <p>Freshly baked pizza with pepperoni and mozzarella cheese.</p>
+              <p class="price">RS 999</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="Pepperonipizza.jpg" alt="Pizza">
+            <div class="menu-item-details">
+              <h2>Pepperoni Pizza</h2>
+              <p>Freshly baked pizza with pepperoni and mozzarella cheese.</p>
+              <p class="price">RS 999</p>
+            </div>
+          </div>
+    
+      </section>
+      
+
+
+      <footer>
+        <p>&copy;  2024 All rights reserved.Karachi fast foods
+        </p>
+    </footer>
+</body>
+</html>

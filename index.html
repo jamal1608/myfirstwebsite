@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Karachi fast Foods</title>
+    <style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+body{ overflow-y: auto;
+
+}
+
+header {
+    background-color: #630412;
+    color: #f5d99df1;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px greenyellow ;
+    font-family: cursive;
+    font-size: xx-large;
+
+}
+
+ ul {
+     list-style:square;
+    margin: 0;
+    padding: 0;
+}
+ul :hover{background-color: rgb(245, 252, 62);}
+ ul li {
+    display: inline;
+    margin-right: 8%;
+}
+
+a {
+    text-decoration: double gold ;
+    color: #c1eebb;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #630412;
+    color: azure;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: scroll;
+  white-space: nowrap;
+  padding: 5px;
+  padding-left: 8%;
+  text-align: center;
+  color: rgb(161, 255, 142);
+  text-decoration: double ;
+  font-family: cursive;
+  font-weight: 800;
+  font-size: 500%;
+  text-shadow:3px 3px #6c1b05;
+}
+
+div.scroll-container img {
+    position: relative;
+  padding: 0%;
+width: 65%;
+}
+
+
+.centered {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vertical-menu{
+    width: 250px; height: 0px;
+}
+
+.vertical-menu a {
+  background-color:#333;
+  color: rgb(255, 254, 254);
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ffea47;
+}
+
+.vertical-menu a.active {
+  background-color: #690404;
+  color: white;
+}
+section {
+      max-width: 70%;
+      margin: 40px auto;
+    }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Karachi Fast Foods</h1>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               
+            </ul>
+    </header>
+    <div class="vertical-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html">Order</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+<section>
+        <div class="scroll-container">
+            <img src="Burger-and-Fries.jpg" alt="burger"  >
+            
+            <img src="Pepperonipizza.jpg" alt="burger">
+            <div class="centered">Only Rs 550 
+            </div>
+            <img src="Zinger-Burger.png" alt="burger">
+            <div class="centered">Only Rs 550 
+            </div>
+            <img src="Burger-and-Fries.jpg" alt="burger">
+            <div class="centered">Only Rs 550 
+            </div>
+
+      </div></section>
+      
+    <footer>
+        <p>&copy;  2024 All rights reserved.Karachi fast foods
+        </p>
+    </footer>
+</body>
+</html>

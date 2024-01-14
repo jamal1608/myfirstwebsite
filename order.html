@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Order</title>
+    <style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+body{overflow: scroll;
+
+}
+
+header {
+    background-color: #630412;
+    color: #f5d99df1;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px greenyellow ;
+    font-family: cursive;
+    font-size: xx-large;
+
+}
+
+ ul {
+     list-style:square;
+    margin: 0;
+    padding: 0;
+}
+
+ ul li {
+    display: inline;
+    margin-right: 8%;
+}
+
+ul :hover{background-color: rgb(245, 252, 62);
+}
+a {
+    text-decoration: double gold ;
+    color: #c1eebb;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #630412;
+    color: azure;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.vertical-menu{
+    width: 250px; height: 0px;
+}
+
+.vertical-menu a {
+  background-color:#333;
+  color: rgb(255, 254, 254);
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ffea47;
+}
+
+.vertical-menu a.active {
+  background-color: #690404;
+  color: white;
+}
+h2{
+    font-family: cursive;
+    color: #ffffff; text-align: center;
+    
+
+}
+
+
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Karachi Fast Foods</h1>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               
+            </ul>
+    </header>
+    <div class="vertical-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html">Order</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div><br><br>
+      <table cellpadding="10px" cellspacing="4" width="50%" border="1px" align="center">
+        <tr >
+            <th style="background-color: #630412"; colspan="4"><h2>Karachi Fast Foods</h2></th>
+            </tr>
+            <tr>
+            <td style="background-color: #f0f1b2;"align="left">Name</td>
+        <td style="background-color: #f0f1b2;"><input required placeholder="Enter Name" type="text"></td></tr>
+        <tr>
+            <td style="background-color: #f0f1b2;"align="left">Address</td>
+        <td style="background-color: #f0f1b2;"><input required placeholder="Enter Address" type="text"></td></tr>
+                <tr>
+                    <td style="background-color: #f0f1b2;"align="left">Phone No</td>
+                <td style="background-color: #f0f1b2;"><input type="number"></td></tr>
+                <td style="background-color:#f0f1b2">Topping</td>
+            <td style="background-color:#f0f1b2">
+                <input type="radio" name="Topping" id="Supreme"><label for="male">Supreme</label><br><br>
+                <input type="radio" name="Topping" id="Vegeterian"><label for="female">Vegeterian<label><br><br>
+                <input type="radio" name="Topping" id="huwaiian"><label for="others">Huwaiian</label><br><br>
+                </td></tr>
+                <tr><td style="background-color:#f0f1b2">Sauce</td>
+                <td style="background-color:#f0f1b2"><select>
+                    <option disabled selected>select</option>
+                    <option>Marinara Sauce</option>
+                    <option>Tomato Sauce</option>
+                    <option>Arabic Sauce</option>
+                    <option>Peri Peri Sauce</option>
+                    <option>Chilli Sauce</option>
+                </select></td></tr>
+                <tr><td style="background-color:#f0f1b2">Optional Extras</td>
+                <td style="background-color:#f0f1b2">
+                    <input type="checkbox" name="" id=""><label for="">Extra Cheese </label>
+                    <input type="checkbox" name="" id=""><label for="">Galutin Free Base </label></td></tr>
+                
+                <tr><td  style="background-color:#f0f1b2"colspan="3"><p>Delivery Instructions:</p>
+                    <textarea placeholder="" rows="10%" cols="80%"></textarea><br><br><br>
+                </td></tr>
+                <tr><td style="background-color:#f0f1b2"colspan="3"><input type="submit" style="background-color: #fd8787;">
+                    </td></tr>
+    
+    
+    
+    
+    </table>  
+
+
+      
+
+      <footer>
+        <p>&copy;  2024 All rights reserved.Karachi fast foods
+        </p>
+    </footer>
+</body>
+</html>
